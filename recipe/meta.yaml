@@ -1,5 +1,5 @@
 {% set name = "sunkit-magex" %}
-{% set version = "1.0.0a1" %}
+{% set version = "1.0.0rc1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sunkit_magex-{{ version }}.tar.gz
-  sha256: 606199962cef4d5c89c37a924caaf984314f8625999d84b0c95c3c3ee9fc9820
+  sha256: 187b3c3248d89cd083508789dc8954e99251bfff65749d6e7c098783c56a9482
 
 build:
   noarch: python
